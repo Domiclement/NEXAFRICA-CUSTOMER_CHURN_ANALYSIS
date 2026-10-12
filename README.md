@@ -76,32 +76,5 @@ These are observed associations, not proof of causation.
 6. Use predicted churn probabilities to prioritize retention outreach while monitoring false positives and false negatives.
 7. Measure retention rates, campaign costs, and revenue retained to assess intervention value.
 
-These are proposed actions; their effectiveness has not been established by this analysis.
-
-## How to Run the Project
-1. Clone/download the repository.
-2. Install dependencies with `pip install -r requirements.txt`.
-3. Open `notebooks/customer_churn_analysis.ipynb` in Colab or Jupyter.
-4. Put the CSV in `data/raw_data/` and update the notebook path if needed.
-5. Run cells in order and review metrics and visualizations.
-
-## Project Structure
-```text
-Customer-Churn-Prediction/
-├── data/
-│   ├── raw_data/
-│   └── processed_data/
-├── notebooks/
-│   └── customer_churn_analysis.ipynb
-├── src/
-│   └── preprocessing_and_modeling.py
-├── visuals/
-│   ├── churn_analysis.png
-│   ├── feature_importance.png
-│   └── model_performance.png
-├── README.md
-└── requirements.txt
-```
-
 ## Conclusion
 The project demonstrates a machine-learning workflow for churn prediction and links model findings to possible retention actions. Contract and tenure were the leading features in the reported Random Forest importance analysis. Before operational use, validate on new data, review error costs, and test retention interventions.
